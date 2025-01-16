@@ -1,6 +1,7 @@
+import { Perfil, Skills } from "../components"
 
 export const PortafolioPage = () => {
   return (
-    <div>PortafolioPage</div>
-  )
+    <Perfil />
+   )
 }

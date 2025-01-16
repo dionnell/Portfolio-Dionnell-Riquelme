@@ -1,0 +1,7 @@
+export * from './Contactenos.jsx'
+export * from './Datos'
+export * from './Educacion'
+export * from './Experiencia'
+export * from './Perfil'
+export * from './Proyectos.jsx'
+export * from './Skills/Skills.jsx'
