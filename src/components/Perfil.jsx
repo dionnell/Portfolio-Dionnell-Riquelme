@@ -6,6 +6,8 @@ export const Perfil = () => {
     <Box
       sx={{ padding: '20px'}}
       className="Glassmorphism"
+      width={{ sm: '100%', md: '80%', lg: '80%'}}
+      marginX={{ sm: 'auto', md: 'auto', lg: 'auto'}}
     >
       
       <Grid2
@@ -24,11 +26,10 @@ export const Perfil = () => {
             </Typography>
           </Box>
           <Box
-            sx={{ fontFamily: 'Roboto', textAlign: 'center'}}
+            sx={{ fontFamily: 'Roboto', textAlign: 'center', textShadow: '1px 2px black'}}
             fontStyle={{ sm: 'italic', md: 'italic', lg: 'italic'}}
             fontSize={{ sm: '1.3rem', md: '1.5rem', lg: '1.7rem'}}
             padding={{ sm: '5px', md: '25px', lg: '30px'}}
-            width={{ sm: '100%', md: '80%', lg: '80%'}}
             marginX={{ sm: 'auto', md: 'auto', lg: 'auto'}}
             lineHeight={{ sm: '1.5', md: '1.5', lg: '1.2'}}
           >
